@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 import React, { useRef } from "react";
 import {
@@ -134,3 +135,5 @@ export const MovingBorder = ({
     </>
   );
 };
+
+/* eslint-enable @typescript-eslint/no-explicit-any */

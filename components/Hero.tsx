@@ -43,7 +43,7 @@ const Hero = () => {
 
 
       <p className='relative text-center md:tracking-wider mb-4 text-sm md:text:lg lg:text-2xl'>
-      Hi, I'm Rohit, a web developer crafting seamless experiences.  
+      Hi, I&apos;m Rohit, a web developer crafting seamless experiences.  
       </p>
 
       <a href='https://drive.google.com/file/d/17jUdCjQTvDGZAujdzGd5n7LkK8b5niFy/view?usp=sharing' target='_blank'>

@@ -1,12 +1,12 @@
 'use client'
 
 import { cn } from "@/lib/utils";
-import { line, object } from "framer-motion/client";
+// import { line, object } from "framer-motion/client";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 import Lottie from "react-lottie";
 import { useState } from "react";
-import { animate } from "framer-motion";
+// import { animate } from "framer-motion";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";

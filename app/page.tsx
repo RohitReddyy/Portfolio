@@ -4,7 +4,7 @@ import RecentProjects from "@/components/RecentProjects";
 import Achievements from "@/components/Achievements";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
-import { FaHome } from "react-icons/fa";
+// import { FaHome } from "react-icons/fa";
 import Experience from "@/components/Experience";
 import Certifications from "@/components/Certifications";
 import Footer from "@/components/Footer";

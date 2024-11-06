@@ -9,9 +9,9 @@ const Footer = () => {
         
         <div className='flex flex-col items-center'>
             <h1 className='heading lg:max-w-[45vw]'>
-            Looking for passionate intern? <span className='text-purple'>I'm here</span> to make an impact!
+            Looking for passionate intern? <span className='text-purple'>I&apos;m here</span> to make an impact!
             </h1>
-            <p className='text-white-200 md:mt-10 my-5'>I am actively seeking internship opportunities where I can contribute and grow. Feel free to reach out if you're interested in collaborating.</p>
+            <p className='text-white-200 md:mt-10 my-5'>I am actively seeking internship opportunities where I can contribute and grow. Feel free to reach out if you&apos;re interested in collaborating.</p>
             <a href='mailto:mdrohitreddy@gmail.com'>
                 <MagicButton title='Lets get in touch' position='center' icon={<FaLocationArrow/>} />
             </a>

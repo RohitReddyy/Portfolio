@@ -57,8 +57,8 @@ const DotMatrix: React.FC<DotMatrixProps> = ({
   opacities = [0.04, 0.04, 0.04, 0.04, 0.04, 0.08, 0.08, 0.08, 0.08, 0.14],
   totalSize = 4,
   dotSize = 2,
-  shader = "",
-  center = ["x", "y"],
+  // shader = "",
+  // center = ["x", "y"],
 }) => {
   const uniforms = useMemo(() => {
     const colorsArray = colors.map((color) => [
@@ -128,7 +128,7 @@ const ShaderMaterial = ({
   maxFps?: number;
   uniforms: Uniforms;
 }) => {
-  const { size } = useThree();
+  // const { size } = useThree();
   const ref = useRef<THREE.Mesh | null>(null);
   let lastFrameTime = 0;
 
